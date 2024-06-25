@@ -15,7 +15,8 @@
     "incremental": true,
     "plugins": [
       {
-        "name": "next"
+        "name": "next",
+        "type": "module"
       }
     ],
     "paths": {
@@ -29,6 +30,6 @@
     ".next/types/**/*.ts",
     "app/lib/placeholder-data.js",
     "scripts/seed.js"
-  ],
+, "app/ui/fonts.ts"  ],
   "exclude": ["node_modules"]
 }
